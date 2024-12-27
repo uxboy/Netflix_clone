@@ -1,0 +1,26 @@
+.img-back-div{
+    /* background-image: url("/p1/tv.png"); */
+    height: 500px;
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+}
+.img-back-div img{
+    position: relative;
+    height: 100%;
+}
+.child{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+}
+video{
+    display: inline-block;
+    position: absolute;
+    top: 20.5%;
+    left: 13.5%;
+    z-index: -1;
+}

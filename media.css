@@ -1,0 +1,271 @@
+
+@media screen and (max-width: 156px){
+    .nav img {
+        height: 30px !important;
+    }
+}
+@media screen and (max-width: 178px){
+    .sec1img img {
+        height: 70%;
+    }
+}
+@media screen and (max-width: 200px){
+    .third h1{
+        font-size: 24px !important;
+
+    }
+}
+@media screen and (max-width: 959px){
+    div.main{
+        background-image: url("bg.jpg");
+        height: 150vh;
+        background-size: max(1800px, 100vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .box {
+        height: 150vh;
+        width: 100%;
+        opacity: 0.6;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        z-index: ;
+    }
+    
+    .main .sign-in-lan-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        margin-top: 20px;
+    }
+    .nav-para{
+        height: ;
+    }
+    .nav-para> :nth-child(1){
+        font-family: "Roboto", sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    .nav-para> :nth-child(2){
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: EFFFFF;
+        text-align: center;
+        letter-spacing: 0.03rem;
+        margin-bottom: 3px;
+    }
+    .nav-para> :nth-child(3){
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: EFFFFF;
+        text-align: center;
+        letter-spacing: 0.03rem;
+    
+    }
+    .nav-input-width{
+        height: 135px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: ;
+        gap: 11%;
+    }
+    .nav-input-width input{
+        width: 100%;
+    }
+.btn-red{
+    font-size: 1rem;
+    padding: 15.4px 3.5%;
+}
+}
+
+@media screen and (max-width: 959px) {
+    .sec1img{
+        position: relative;
+        background-color: ;
+        height: 40vh;
+        /* background-color: pink; */
+        background-repeat: no-repeat;
+        position: relative;
+        display: inline-block;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: ;
+        /* height: 100%; */
+        /* max-height: 70vw; */
+        margin: auto;
+        padding-top:72px;
+        padding-bottom: 72px;
+        max-height: 1000px;
+    }
+    .second, .fourth{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .first p{
+        text-align: ;
+    }
+    .first-section-para{
+        margin-bottom: 50px;
+    }
+    .first-section-para h1{
+        text-align: center;
+    }
+    .first-section-para p{
+        text-align: center;
+    }
+    .first-section-para{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: ;
+        background-color: ;
+        text-align: left;
+        display: inline-block;
+        width: 80vw;
+    }
+    .second-section-para{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: ;
+        background-color: ;
+        text-align: left;
+        display: inline-block;
+        width: 80vw;
+    }
+    .third-section-para{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: ;
+        background-color: ;
+        text-align: left;
+        display: inline-block;
+        width: 80vw;
+    }
+    .fourth-section-para{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: ;
+        background-color: ;
+        text-align: left;
+        display: inline-block;
+        width: 80vw;
+    }
+    .first-section-para> :nth-child(2){
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: EFFFFF;
+        text-align: ;
+        letter-spacing: 0.03rem;
+        margin-bottom: ;
+    }
+    .first-section-para> :nth-child(1){
+        font-family: "Roboto", sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: ;
+
+        /* margin-bottom: 1.2rem; */
+    }
+    
+}
+@media screen and (max-width: 959px){
+    footer{
+        max-height: 1000px;
+    }
+    footer .footer-enquery-list2{
+        width: 40%;
+        max-height: 1000px;
+        background-color: ;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 959px){
+    .faq-sec-para .width{
+        /* height: 135px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: ;
+        gap: 11%;
+    }
+    .faq-sec-para input{
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+    .faq h1{
+        font-family: "Roboto", sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 1.5rem !important;
+        text-align: ;
+    }
+}
+
+@media screen and (max-width: 961px){
+    .nav img{
+        height: 40px;
+    }
+}
+@media screen and (max-width: 190px){
+    h1{
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width: 150px){
+    footer{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .faq{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .fourth{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .third{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .second{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .first{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .main{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
